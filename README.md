@@ -29,6 +29,9 @@ bikes_df.head()
 
 
 ```
+<img width="755" alt="DATA PREPROCESSING" src="https://github.com/user-attachments/assets/c0356585-e451-497d-b32f-397b9e9de5e1" />
+
+
 ## DATA MODIFICATION
 ```Python
 # Adding the following 3 columns to the pansdas Dataframe: bikes_df
@@ -57,6 +60,8 @@ bikes_df.head()
 
 
 ```
+<img width="175" alt="DATA MODIFICATION" src="https://github.com/user-attachments/assets/57714133-f806-4035-8603-40b81f1face8" />
+
 ## DATA ANALYSIS
 ## DATA FILTERING
 ```Python
@@ -73,6 +78,9 @@ bikes_in_US.head()
 
 
 ```
+<img width="758" alt="DATA FILTERING 1" src="https://github.com/user-attachments/assets/b9e865d0-846f-4eb1-8bde-081cbe71768a" />
+<img width="357" alt="DATA FILTERING 2" src="https://github.com/user-attachments/assets/7ba83bfe-4a82-4b85-bf56-247c2763f6d7" />
+
 #### DATA AGGREGATION
 ```Python
 # aggregating and summarising data for bike sales
@@ -85,6 +93,9 @@ Total_profit_by_state
 
 
 ```
+<img width="198" alt="DATA AGGREGATION 1" src="https://github.com/user-attachments/assets/2140c6ae-356d-4308-9886-6a4b9df91a59" />
+<img width="133" alt="DATA AGGREGATION 2" src="https://github.com/user-attachments/assets/4d82a4eb-bd35-4a7a-a1b0-7bba52249096" />
+
 #### DATA SORTING
 ```Python
 # sorting the aggregated bike sales data to rank the states according to the most profitable states
@@ -97,6 +108,8 @@ top_5_profitable_states_USA.head()
 
 
 ```
+<img width="146" alt="DATA SORTING" src="https://github.com/user-attachments/assets/3b9cf7e2-b724-4c6a-8758-db63410f6a20" />
+
 #### RESULT
 ```Python
 # What are the Top Most-Profitable 5 States for the Bike Product Category in the United States?
@@ -105,6 +118,9 @@ top_5_profitable_states_USA.head()
 
 
 ```
+<img width="125" alt="SCREENSHOT FOR THE ONE BEFORE THE BAR" src="https://github.com/user-attachments/assets/4dae00b3-0b92-4ebe-8d96-5a3e038165e0" />
+
+
 ## DATA VISUALIZATION
 ```Python
 # Visualising the aggregated and sorted data
@@ -122,3 +138,5 @@ plt.show()
 
 
 ```
+<img width="346" alt="PROJECT_1_SCREENSHOT" src="https://github.com/user-attachments/assets/a3509c2b-6fd9-44f5-988c-a8ec6893f99e" />
+
