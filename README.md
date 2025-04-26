@@ -73,3 +73,52 @@ bikes_in_US.head()
 
 
 ```
+#### DATA AGGREGATION
+```Python
+# aggregating and summarising data for bike sales
+
+bikes_in_US.pivot_table(values = "Profit", index = "CustomerState", aggfunc = np.sum)
+
+Total_profit_by_state = bikes_in_US.pivot_table(values = "Profit", index = "CustomerState", aggfunc = np.sum)
+
+Total_profit_by_state
+
+
+```
+#### DATA SORTING
+```Python
+# sorting the aggregated bike sales data to rank the states according to the most profitable states
+
+Total_profit_by_state.sort_values("Profit", ascending = False)
+
+top_5_profitable_states_USA = Total_profit_by_state.sort_values("Profit", ascending = False)
+
+top_5_profitable_states_USA.head()
+
+
+```
+#### RESULT
+```Python
+# What are the Top Most-Profitable 5 States for the Bike Product Category in the United States?
+
+top_5_profitable_states_USA.head()
+
+
+```
+## DATA VISUALIZATION
+```Python
+# Visualising the aggregated and sorted data
+
+top_5_profitable_states_USA.plot(kind = "bar")
+
+plt.title("The Top 5 Most Profitable States in the US for Bikes")
+
+plt.ylabel("Total profit in million dollars")
+
+plt.xlabel("States")
+
+plt.show()
+
+
+
+```
